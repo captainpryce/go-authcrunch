@@ -1,4 +1,4 @@
-module github.com/greenpau/go-authcrunch
+module github.com/captainpryce/go-authcrunch
 
 go 1.21
 

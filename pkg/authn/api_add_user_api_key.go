@@ -42,6 +42,9 @@ func (p *Portal) AddUserAPIKey(
 	usr *user.User,
 	backend ids.IdentityStore,
 	bodyData map[string]interface{}) error {
+  
+  rr.Logger.Debug("AddUserAPIKey")
+
 	var keyTitle, keyDescription, keyPayload string
 	var keyLabels []string = []string{}
 	var keyTags []tagging.Tag = []tagging.Tag{}

@@ -19,6 +19,7 @@ require (
 	golang.org/x/net v0.24.0
 	gopkg.in/yaml.v3 v3.0.1
   github.com/greenpau/go-authcrunch v1.1.4
+  github.com/greenpau/caddy-security v1.1.29
 )
 
 replace (
